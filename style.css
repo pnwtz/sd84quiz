@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: url(sdlast.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+}
+.score-container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 94%;
+
+}
+#start{
+    background-color: #ffbaeb;
+    height: 4em;
+    width: 20em;
+    font-size: 3em;
+    border: 0.2em solid violet;
+    border-radius: 1;
+    cursor: pointer;
+    font-family: "Audiowide", sans-serif;
+    color: blue;
+}
+.game-container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 120em;
+    padding: 3em 1.5em;
+    border: 0.6em solid #090029;
+    border-radius: 0.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-family: "Audiowide", sans-serif;
+}
+.timer span{
+    font-weight: 600;
+    font-family: "Audiowide", sans-serif;
+
+
+    
+}
+.header,
+.num{
+ text-align: right;
+ font-size: 5em;
+ font-family: "Audiowide", sans-serif;
+}
+.pokemon-image{
+    display: block;
+    margin: 3em auto 0 auto;
+    font-family: "Audiowide", sans-serif;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    font-family: "Audiowide", sans-serif;
+}
+.options button {
+    background-color: #fff;
+    padding: 5em;
+    border: 0.3em solid #090029;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 0 0 #090029;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: "Audiowide", sans-serif;
+}
+.options button:hover{
+    box-shadow: none;
+    transform: translateY(0.6em);
+    font-family: "Audiowide", sans-serif;
+}
+.nxt-btn-div {
+    margin-top: 2em;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Audiowide", sans-serif;
+}
+.next-btn{
+    cursor: pointer;
+    background-color: #090029;
+    color: #fff;
+    border-radius: 0.5em;
+    font-size: 5em;
+    font-family: "Audiowide", sans-serif;
+}
+.hide{
+    display: none;
+}
+.options:disabled {
+    border-color: #a0a0a0;
+    color: #a0a0a0;
+    box-shadow: 0 0.5em 0 0 #a0a0a0;
+    cursor: not-allowed;
+}
+.options button.correct {
+    background: #58cc5d;
+}
+.options button.incorrect{
+    background: #eb5650;
+}
+.options button.correct,.options button.incorrect{
+    color: #fff;
+    border-color: #090029;
+    box-shadow: 0 0.5em 0 0 #090029;
+}
+.score-container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-family: "Audiowide", sans-serif;
+}
+#user-score{
+    margin-bottom: lem;
+    color: #ffffff;
+    padding: 20%;
+    font-size: 42px;
+    font-family: "Audiowide", sans-serif;
+}
